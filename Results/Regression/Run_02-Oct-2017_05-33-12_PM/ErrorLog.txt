@@ -1,0 +1,21 @@
+Starting ChromeDriver 2.25Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 35182
+Only local connections are allowed.
+.42692Starting ChromeDriver 2.25.426923 (0390b83 (0390b88869384d6e8b806938d4d6eb0d5d09729679f934aa5bd9eed) on port 300618
+Only local connections are allowed.
+9729679f934aab9eed) on port 10422
+Only local connections are allowed.
+Oct 02, 2017 5:33:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Oct 02, 2017 5:33:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Oct 02, 2017 5:33:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Exception in thread "pool-1-thread-1" com.iknowmed.framework.FrameworkException: The test case "TestForValidLogin" is not found in the Business Flow sheet!
+	at supportlibraries.DriverScript.initializeBusinessFlow(DriverScript.java:864)
+	at supportlibraries.DriverScript.initializeTestScript(DriverScript.java:852)
+	at supportlibraries.DriverScript.executeCraftOrCraftLite(DriverScript.java:170)
+	at supportlibraries.DriverScript.driveTestExecution(DriverScript.java:162)
+	at allocator.ParallelRunner.run(ParallelRunner.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)

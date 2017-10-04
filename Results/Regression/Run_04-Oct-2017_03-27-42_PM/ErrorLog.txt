@@ -1,0 +1,99 @@
+1507111067869	geckodriver	INFO	geckodriver 0.19.0
+1507111067869	geckodriver	INFO	geckodriver 0.19.0
+1507111067869	geckodriver	INFO	geckodriver 0.19.0
+1507111067900	geckodriver	INFO	Listening on 127.0.0.1:415071110647900	g2eckodriver44
+	INFO	Listening on 127.0.0.1:38063
+1507111067900	geckodriver	INFO	Listening on 127.0.0.1:46084
+1507111068885	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ef3pdql\\AppData\\Local\\Temp150711\1\0r6u8s8t8_mozprofile.S7g4jKkEt4EH"
+51	5mo0z7r1u1n1n0e6r:8:900	mozrurnunnner::runner	INFO	Ruenr	INFO	nRuning command: "C:\\Pnrogram Files\\Mozilla Firefox\\fiirefox.exe"n "-mariong ette" "-profile" "C:\\Usceormsm\\ef3pdql\\AppData\and: "C:\\Program F\Local\\Temp\\rusti_lmozprofile.FmfJVm2ctIei"
+es\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ef3pdql\\AppData\\Local\\Temp\\rust_mozprofile.p0VMBrgNjjKl"
+1507111069519	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1507111069548	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@r1507111069554	addons.xpi	WARNe	sEorror parsing euxtensions state: [Exception... "Component rrceet:urned failu//gre/modulerse/ code: 0x80520012 (NS_ERROR_FILE_Naddons/XPIProvider.jsOmT:1589 <_ FOUND) [amIAddonManagerStartup.readStartupcData]"  hnescrkeFsult: "0oxr8C0520012 (NS_ERhRaOnRges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/Addon_MFaInager.jsm:269 < _startProvider()@resource://gre/modules/AddonManagLeE_NOT_FOUND)"  lorc.ajsm:7t3ion: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: l9o adExtensionState :: line 1554"  data: no] Stack t<race: loadExtens isonState()@resource://gre/modulteasr/taudp()@resoudrons/XPIcPer:o/vider.jsm:1554 < getInstallState()@resource://gre//modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvigder.jsm:31re/mod0u9l es/AddonManager.jsm:906 < sta<r startupt()@reup()@ressoource:u/r/gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Moczei:l//grla%20Firefox/oe/modules/admdni.ja!/components/ons/XPIProvidera.jsm:2188d donManager.js:65<
+ callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1507111070603	Marionette	INFO	Enabled via --marionette
+1507111070627	Marionette	INFO	Enabled via --marionette
+1507111070671	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\ef3pdql\AppData\Local\openvr\openvrpaths.vrpath
+[Child 19036] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19036] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\ef3pdql\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 9660] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\ef3pdql\AppData\Local\openvr\openvrpaths.vrpath
+[Child 18468] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18468] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\ef3pdql\AppData\Local\openvr\openvrpaths.vrpath
+[Child 3956] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1507111074652	Marionette	INFO	Listening on port 59219
+1507111075152	Marionette	INFO	Listening on port 59221
+1507111075326	Marionette	INFO	Listening on port 59220
+1507111075614	Marionette	WARN	TLS1507111075630	Marionette	WARN	TLS certificate errors will be ignored for this session
+ certificate errors will be ignored for this session
+1507111075650	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507111075720	Marionette	DEBUG	Register listener.js for window 4294967297
+1507111075754	Marionette	DEBUG	Register listener.js for window 4294967297
+1507111075757	Marionette	DEBUG	Register listener.js for window 4294967297
+Oct 04, 2017 3:27:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 04, 2017 3:27:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 04, 2017 3:27:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Exception in thread "pool-1-thread-1" com.iknowmed.framework.FrameworkException: The test case "TestForValidLogin" is not found in the Business Flow sheet!
+	at supportlibraries.DriverScript.initializeBusinessFlow(DriverScript.java:864)
+	at supportlibraries.DriverScript.initializeTestScript(DriverScript.java:852)
+	at supportlibraries.DriverScript.executeCraftOrCraftLite(DriverScript.java:170)
+	at supportlibraries.DriverScript.driveTestExecution(DriverScript.java:162)
+	at allocator.ParallelRunner.run(ParallelRunner.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+1507111077682	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507111077680	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507111077911	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507111077911	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507111077914	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507111077915	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507111080008	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://g2alpha.usoncology.com/ehr/app.jsp"
+1507111080093	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://g2alpha.usoncology.com/ehr/app.jsp"
+1507111089223	Marionette	DEBUG	Received DOM event "pageshow" for "https://g2alpha.usoncology.com/ehr/app.jsp"
+1507111089533	Marionette	DEBUG	Received DOM event "pageshow" for "https://g2alpha.usoncology.com/ehr/app.jsp"
+1507111091311	Marionette	DEBUG	Canceled pa1507111091311	Marionette	DEBUgG	Cancee load listener because no naviled page load listener because no navigation has been detected
+gation has been detected
+1507111101769	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1507111101840	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1507111102144	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1507111102222	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1507111113655	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1507111113705	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\ef3pdql\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://g2alpha.usoncology.com/ehr/app.jsp, line 100: Error: com.google.web.bindery.event.shared.UmbrellaException: Exception caught: (TypeError) : a is undefined
+1507111114929	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1507111115531	Marionette	DEBUG	Received DOM event "beforeunload" for "https://g2alpha.usoncology.com/ehr/app.jsp"
+JavaScript error: https://g2alpha.usoncology.com/ehr/app.jsp, line 100: Error: com.google.web.bindery.event.shared.UmbrellaException: Exception caught: (TypeError) : a is undefined
+1507111115849	Marionette	DEBUG	Received DOM event "pagehide" for "https://g2alpha.usoncology.com/ehr/app.jsp"
+1507111115854	Marionette	DEBUG	Received DOM event "unload" for "https://g2alpha.usoncology.com/ehr/app.jsp"
+1507111116259	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://g2alpha.usoncology.com/ehr/app.jsp"
+1507111116317	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967301"
+1507111116319	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967303"
+1507111116319	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967305"
+1507111116319	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967308"
+1507111117724	Marionette	DEBUG	Received DOM event "pageshow" for "https://g2alpha.usoncology.com/ehr/app.jsp"
+1507111118267	Marionette	INFO	New connections will no longer be accepted
+1507111120770	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1507111123502	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://g2alpha.usoncology.com/ehr/app.jsp, line 100: Error: com.google.web.bindery.event.shared.UmbrellaException: Exception caught: Must call edit() first
+JavaScript error: https://g2alpha.usoncology.com/ehr/app.jsp, line 100: Error: com.google.web.bindery.event.shared.UmbrellaException: Exception caught: (TypeError) : Qao(...) is null
+JavaScript error: https://g2alpha.usoncology.com/ehr/app.jsp, line 100: Error: com.google.web.bindery.event.shared.UmbrellaException: Exception caught: (TypeError) : Qao(...) is null
+1507111137173	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1507111144665	Marionette	DEBUG	Received DOM event "beforeunload" for "https://g2alpha.usoncology.com/ehr/app.jsp"
+1507111145030	Marionette	DEBUG	Received DOM event "pagehide" for "https://g2alpha.usoncology.com/ehr/app.jsp"
+1507111145034	Marionette	DEBUG	Received DOM event "unload" for "https://g2alpha.usoncology.com/ehr/app.jsp"
+1507111145593	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://g2alpha.usoncology.com/ehr/app.jsp"
+1507111145643	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967301"
+1507111145649	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967302"
+1507111145649	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967305"
+1507111145650	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967308"
+1507111146800	Marionette	DEBUG	Received DOM event "pageshow" for "https://g2alpha.usoncology.com/ehr/app.jsp"
+1507111147158	Marionette	INFO	New connections will no longer be accepted
+Unable to read VR Path Registry from C:\Users\ef3pdql\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 4348] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346

@@ -1,0 +1,12 @@
+Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 16822
+Only local connections are allowed.
+StartinStarting ChromeDriver 2.25.4g26923 (0390b88869384d6 eCb0d5d0972h96r79f934aab9eed) ono port 4683meDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 37255
+Only local connections are allowed.
+9
+Only local connections are allowed.
+Oct 02, 2017 4:08:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Oct 02, 2017 4:08:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Oct 02, 2017 4:08:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/MATS/Selenium/Required_Jars/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/MATS/Selenium/Required_Jars/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="C:/MATS/Selenium/Required_Jars/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/MATS/Selenium/Required_Jars/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/MATS/Selenium/Required_Jars/gson-2.8.1.jar"/>
+	<classpathentry kind="lib" path="C:/MATS/Selenium/Required_Jars/gson-2.8.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/MATS/Selenium/Required_Jars/gson-2.8.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/MATS/Selenium/Required_Jars/imageClient.jar"/>
+	<classpathentry kind="lib" path="C:/MATS/Selenium/Required_Jars/java-client-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/MATS/Selenium/Required_Jars/javax.ws.rs.jar"/>
+	<classpathentry kind="lib" path="C:/MATS/Selenium/Required_Jars/jersey-client.jar"/>
+	<classpathentry kind="lib" path="C:/MATS/Selenium/Required_Jars/jersey-core-1.19.1.jar"/>
+	<classpathentry kind="lib" path="C:/MATS/Selenium/Required_Jars/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/MATS/Selenium/Required_Jars/log4j-1.2-api-2.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/MATS/Selenium/Required_Jars/mobile-webdriver.jar"/>
+	<classpathentry kind="lib" path="C:/MATS/Selenium/Required_Jars/poi-3.16.jar"/>
+	<classpathentry kind="lib" path="C:/MATS/Selenium/Required_Jars/poi-examples-3.16.jar"/>
+	<classpathentry kind="lib" path="C:/MATS/Selenium/Required_Jars/poi-excelant-3.16.jar"/>
+	<classpathentry kind="lib" path="C:/MATS/Selenium/Required_Jars/poi-ooxml-3.16.jar"/>
+	<classpathentry kind="lib" path="C:/MATS/Selenium/Required_Jars/poi-ooxml-schemas-3.16.jar"/>
+	<classpathentry kind="lib" path="C:/MATS/Selenium/Required_Jars/poi-scratchpad-3.16.jar"/>
+	<classpathentry kind="lib" path="C:/MATS/Selenium/Required_Jars/selenium-server-standalone-3.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/MATS/Selenium/Required_Jars/selenium-support-2.44.0.jar"/>
+	<classpathentry kind="lib" path="C:/MATS/Selenium/Required_Jars/testng-6.11.jar"/>
+	<classpathentry kind="lib" path="C:/MATS/Selenium/Required_Jars/xmlbeans-2.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/MATS/Selenium/Required_Jars/xmlrpc-client-3.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/MATS/Selenium/Required_Jars/xmlrpc-common-3.1.2.jar"/>
+	<classpathentry kind="src" path="/CRAFT_Classic_092517"/>
+	<classpathentry kind="output" path=""/>
+</classpath>

@@ -1,0 +1,85 @@
+11506978079000	geckodriver	INFO	geckodriver 0.19.0
+1506978079000	geckodriver	INFO	geckodriver 0.19.0
+506978079000	geckodriver	INFO	geckodriver 0.19.0
+115501506978079025	geckodriver	INFO	Li0stening on 127.0.0.1:37359
+66978079025	geckodriver	INFO	Listening9 on 127.0.0.1:167541
+8079025	geckodriver	INFO	Listening on 127.0.0.1:6652
+150697807981506978079812	moz12	mozrunner::runner	INF1506978079812	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ei2bgh6\\AppData\\Local\\Temp\\rust_mozprofile.voU7OnvOxEns"
+runner::runner	INFO	RunOn	Runnining command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ei2bgh6\\AppData\\Lg command: "C:\\Prograocal\\Temp\\rust_mozprofile.5k3H0Arar58C"
+m Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ei2bgh6\\AppData\\Local\\Temp\\rust_mozprofile.JbFuv5sYsRQW"
+1506978080403	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506978080422	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506978080493	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506978081997	Marionette	INFO	Enabled via --marionette
+1506978082095	Marionette	INFO	Enabled via --marionette
+1506978082141	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\ei2bgh6\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 10480] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\ei2bgh6\AppData\Local\openvr\openvrpaths.vrpath
+[Child 14736] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14736] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\ei2bgh6\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 14012] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1506978087382	Marionette	INFO	Listening on port 56686
+1506978088470	Marionette	DEBUG	Register listener.js for window 4294967297
+Unable to read VR Path Registry from C:\Users\ei2bgh6\AppData\Local\openvr\openvrpaths.vrpath
+[Child 14464] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14464] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Oct 02, 2017 4:01:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1506978089422	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506978089614	Marionette	INFO	Listening on port 56685
+1506978089744	Marionette	INFO	Listening on port 56684
+1506978090117	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506978090122	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506978090778	Marionette	DEBUG	Register listener.js for window 4294967297
+1506978090812	Marionette	DEBUG	Register listener.js for window 4294967297
+Oct 02, 2017 4:01:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 02, 2017 4:01:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1506978091449	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506978091592	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506978092061	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506978092061	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506978092165	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506978092166	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506978092422	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://g2loadehr.mckesson.com/ehr/app.jsp"
+1506978092531	Marionette	DEBUG	Received DOM event "pageshow" for "https://g2loadehr.mckesson.com/ehr/app.jsp"
+1506978095186	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://g2loadehr.mckesson.com/ehr/app.jsp"
+1506978095195	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://g2loadehr.mckesson.com/ehr/app.jsp"
+1506978095308	Marionette	DEBUG	Received DOM event "pageshow" for "https://g2loadehr.mckesson.com/ehr/app.jsp"
+1506978095345	Marionette	DEBUG	Received DOM event "pageshow" for "https://g2loadehr.mckesson.com/ehr/app.jsp"
+1506978095967	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506978099426	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506978101175	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506978107694	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506978107965	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506978109514	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506978109760	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506978113616	Marionette	DEBUG	Received DOM event "beforeunload" for "https://g2loadehr.mckesson.com/ehr/app.jsp"
+1506978113925	Marionette	DEBUG	Received DOM event "pagehide" for "https://g2loadehr.mckesson.com/ehr/app.jsp"
+1506978113927	Marionette	DEBUG	Received DOM event "unload" for "https://g2loadehr.mckesson.com/ehr/app.jsp"
+1506978114131	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://g2loadehr.mckesson.com/ehr/app.jsp"
+1506978114154	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967301"
+1506978114159	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967303"
+1506978114164	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967305"
+1506978114554	Marionette	INFO	New connections will no longer be accepted
+1506978115283	Marionette	DEBUG	Received DOM event "pageshow" for "https://g2loadehr.mckesson.com/ehr/app.jsp"
+1506978115585	Marionette	INFO	New connections will no longer be accepted
+1506978116057	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\ei2bgh6\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://g2loadehr.mckesson.com/ehr/app.jsp, line 2: Error: com.google.web.bindery.event.shared.UmbrellaException: Exception caught: (TypeError) : a is undefined
+JavaScript error: https://g2loadehr.mckesson.com/ehr/app.jsp, line 2: Error: com.google.web.bindery.event.shared.UmbrellaException: Exception caught: (TypeError) : a is undefined
+1506978121985	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506978124346	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506978135758	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506978143491	Marionette	DEBUG	Received DOM event "beforeunload" for "https://g2loadehr.mckesson.com/ehr/app.jsp"
+1506978143730	Marionette	DEBUG	Received DOM event "pagehide" for "https://g2loadehr.mckesson.com/ehr/app.jsp"
+1506978143732	Marionette	DEBUG	Received DOM event "unload" for "https://g2loadehr.mckesson.com/ehr/app.jsp"
+1506978143922	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://g2loadehr.mckesson.com/ehr/app.jsp"
+1506978143965	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967301"
+1506978143966	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967303"
+1506978143966	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967305"
+1506978144613	Marionette	DEBUG	Received DOM event "pageshow" for "https://g2loadehr.mckesson.com/ehr/app.jsp"
+1506978144856	Marionette	INFO	New connections will no longer be accepted

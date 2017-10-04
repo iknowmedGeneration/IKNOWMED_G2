@@ -1,0 +1,73 @@
+1506978875283	geckodriver	INFO	geckodriver 0.19.0
+1506978875295	geckodriver	INFO	Listening on 127.0.0.1:14619
+1506978876244	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ei2bgh6\\AppData\\Local\\Temp\\rust_mozprofile.EeqJn86l6m7w"
+1506978876637	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506978877636	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\ei2bgh6\AppData\Local\openvr\openvrpaths.vrpath
+[Child 14936] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14936] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1506978880395	Marionette	INFO	Listening on port 58955
+1506978880565	Marionette	DEBUG	Register listener.js for window 4294967297
+Oct 02, 2017 4:14:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1506978881370	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506978881770	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506978881771	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506978882855	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://g2loadehr.mckesson.com/ehr/app.jsp"
+1506978883011	Marionette	DEBUG	Received DOM event "pageshow" for "https://g2loadehr.mckesson.com/ehr/app.jsp"
+1506978885657	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506978893399	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506978893662	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\ei2bgh6\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 14776] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\ei2bgh6\AppData\Local\openvr\openvrpaths.vrpath
+[Child 14148] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14148] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\ei2bgh6\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 14012] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1506978898801	geckodriver::marionette	ERROR	Failed to kill browser process
+org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:54:15.039Z'
+System info: host: 'A5CG5433551', ip: '10.132.30.111', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ei2bgh6\AppData\Local\Temp\rust_mozprofile.EeqJn86l6m7w, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=56.0, platformVersion=6.1, moz:processID=14776, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 8e1d2239-9bc3-4759-8bd1-8d99e66053a7
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:703)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:388)
+	at com.iknowmed.framework.selenium.SeleniumReport.takeScreenshot(SeleniumReport.java:104)
+	at com.iknowmed.framework.Report.handleStepInvolvingScreenshot(Report.java:373)
+	at com.iknowmed.framework.Report.updateTestLog(Report.java:238)
+	at supportlibraries.DriverScript.exceptionHandler(DriverScript.java:1072)
+	at supportlibraries.DriverScript.executeCRAFTTestIterations(DriverScript.java:899)
+	at supportlibraries.DriverScript.executeCraftOrCraftLite(DriverScript.java:171)
+	at supportlibraries.DriverScript.driveTestExecution(DriverScript.java:162)
+	at allocator.ParallelRunner.run(ParallelRunner.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Exception in thread "pool-1-thread-1" com.iknowmed.framework.FrameworkException: Error while capturing the screenshot
+	at com.iknowmed.framework.selenium.SeleniumReport.takeScreenshot(SeleniumReport.java:108)
+	at com.iknowmed.framework.Report.handleStepInvolvingScreenshot(Report.java:373)
+	at com.iknowmed.framework.Report.updateTestLog(Report.java:238)
+	at supportlibraries.DriverScript.exceptionHandler(DriverScript.java:1072)
+	at supportlibraries.DriverScript.executeCRAFTTestIterations(DriverScript.java:899)
+	at supportlibraries.DriverScript.executeCraftOrCraftLite(DriverScript.java:171)
+	at supportlibraries.DriverScript.driveTestExecution(DriverScript.java:162)
+	at allocator.ParallelRunner.run(ParallelRunner.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
