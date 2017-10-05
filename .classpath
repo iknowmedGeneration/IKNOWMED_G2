@@ -30,6 +30,6 @@
 	<classpathentry kind="lib" path="C:/MATS/Selenium/Required_Jars/xmlbeans-2.5.0.jar"/>
 	<classpathentry kind="lib" path="C:/MATS/Selenium/Required_Jars/xmlrpc-client-3.1.2.jar"/>
 	<classpathentry kind="lib" path="C:/MATS/Selenium/Required_Jars/xmlrpc-common-3.1.2.jar"/>
-	<classpathentry kind="src" path="/CRAFT_Classic_092517"/>
+	<classpathentry kind="src" path="/g2_iknowmed"/>
 	<classpathentry kind="output" path=""/>
 </classpath>
