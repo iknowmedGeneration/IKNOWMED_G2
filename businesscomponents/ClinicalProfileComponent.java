@@ -1,6 +1,6 @@
 package businesscomponents;
-import com.cognizant.framework.selenium.CraftDriver;
-import com.cognizant.framework.selenium.WebDriverUtil;
+import com.iknowmed.framework.selenium.*;
+
 import pages.*;
 import supportlibraries.DriverScript;
 import supportlibraries.ReusableLibrary;
