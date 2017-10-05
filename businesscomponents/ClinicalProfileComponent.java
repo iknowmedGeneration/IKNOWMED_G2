@@ -23,9 +23,9 @@ public class ClinicalProfileComponent extends ReusableLibrary {
 	 * @return 
 	 */	
 	
-	@SuppressWarnings("null")
+	
 	public  ClinicalProfileHealthMaintenancePage addSmokingStatus() {		
-		CraftDriver driver = null;
+		//CraftDriver driver = null;
 		WebDriverUtil wdUtil = new WebDriverUtil(driver);
 		wdUtil.waitFor(500);
 		
@@ -33,8 +33,8 @@ public class ClinicalProfileComponent extends ReusableLibrary {
 			wdUtil.waitUntilElementVisible(PatientPage.PatientTab, 15);		
 			driver.findElement(PatientPage.PatientTab).click();
 		}*/
-		wdUtil.waitUntilElementVisible(pages.PatientPage.ClinicalProfileTab, 15);
-		driver.findElement(pages.PatientPage.ClinicalProfileTab).click();
+		wdUtil.waitUntilElementVisible(PatientPage.ClinicalProfileTab, 15);
+		driver.findElement(PatientPage.ClinicalProfileTab).click();
 		wdUtil.waitUntilElementVisible(ClinicalProfilePage.HealthMaintenanceTAB, 15);
 		driver.findElement(ClinicalProfilePage.HealthMaintenanceTAB).click();
 		driver.findElement(ClinicalProfileHealthMaintenancePage.AddSmokingStatusBTN).click();
@@ -47,9 +47,9 @@ public class ClinicalProfileComponent extends ReusableLibrary {
 		return new ClinicalProfileHealthMaintenancePage(scriptHelper);		
 	}
 	
-	@SuppressWarnings("null")
+	
 	public  ClinicalProfileHealthMaintenancePage addScreening() {		
-		CraftDriver driver = null;
+		//CraftDriver driver = null;
 		WebDriverUtil wdUtil = new WebDriverUtil(driver);	
 		wdUtil.waitFor(500);						
 		
@@ -58,7 +58,7 @@ public class ClinicalProfileComponent extends ReusableLibrary {
 			driver.findElement(PatientPage.PatientTab).click();
 		}*/
 		
-		wdUtil.waitUntilElementVisible(pages.PatientPage.ClinicalProfileTab, 15);
+		wdUtil.waitUntilElementVisible(PatientPage.ClinicalProfileTab, 15);
 		driver.findElement(pages.PatientPage.ClinicalProfileTab).click();
 		wdUtil.waitUntilElementVisible(ClinicalProfilePage.HealthMaintenanceTAB, 15);
 		driver.findElement(ClinicalProfilePage.HealthMaintenanceTAB).click();
