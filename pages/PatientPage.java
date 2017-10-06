@@ -1,5 +1,9 @@
 package pages;
 import org.openqa.selenium.By;
+
+import com.iknowmed.framework.Status;
+import com.iknowmed.framework.selenium.WebDriverUtil;
+
 import supportlibraries.ScriptHelper;
 public class PatientPage extends MasterPage {
 	
@@ -31,4 +35,28 @@ public class PatientPage extends MasterPage {
 			//public static final By PatientBanerName = By.xpath(".//*[@id='g2.appPage.tab2.'"+ GeneralComponents.PatientName +"']");
 	
 	//**PAGE OBJECTS END................................................................
+
+
+
+/**Name: clickOnTab
+* Created By: Murali Janjanam
+* Date: 10/05/2017
+* For: To click on any tab in patient page
+* TabName - Tab Name of the Patient
+* Updated By:ica
+* Update Description:			
+*/			
+public void clickOnTab(String TabName){
+		
+		WebDriverUtil wdUtil = new WebDriverUtil(driver);
+		if (TabName.equals("Clinical Profile")) {
+			wdUtil.waitUntilElementVisible(PatientPage.ClinicalProfileTab, 15);
+			driver.findElement(PatientPage.ClinicalProfileTab).click();
+			}			
+		else 
+			throw new IllegalStateException("'"+ TabName + "' Expected, but not Displayed!");					
+				//return new ClinicvoidalProfilePage(scriptHelper);						
+}
+
+
 }
