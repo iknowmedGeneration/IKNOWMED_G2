@@ -1,0 +1,155 @@
+Starting ChromeDriver 2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a) on port 23678
+Only local connections are allowed.
+Starting ChromeDriver 2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a) on port 7499
+Only local connections are allowed.
+Starting ChromeDriver 2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a) on port 33507
+Only local connections are allowed.
+Starting ChromeDriver 2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a) on port 40155
+Only local connections are allowed.
+Oct 08, 2017 12:15:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Oct 08, 2017 12:15:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Oct 08, 2017 12:15:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Oct 08, 2017 12:15:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'MSH-IKM-QA-018', ip: '10.124.98.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\endmecl\AppData\Local\Temp\scoped_dir11480_3747}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=61.0.3163.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 103f826585e99d96ed2071eb2da8ea6a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:643)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:328)
+	at com.iknowmed.framework.selenium.SeleniumReport.takeScreenshot(SeleniumReport.java:104)
+	at com.iknowmed.framework.Report.handleStepInvolvingScreenshot(Report.java:373)
+	at com.iknowmed.framework.Report.updateTestLog(Report.java:238)
+	at supportlibraries.DriverScript.exceptionHandler(DriverScript.java:1072)
+	at supportlibraries.DriverScript.executeCRAFTTestIterations(DriverScript.java:899)
+	at supportlibraries.DriverScript.executeCraftOrCraftLite(DriverScript.java:171)
+	at supportlibraries.DriverScript.driveTestExecution(DriverScript.java:162)
+	at allocator.ParallelRunner.run(ParallelRunner.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-3" com.iknowmed.framework.FrameworkException: Error while capturing the screenshot
+	at com.iknowmed.framework.selenium.SeleniumReport.takeScreenshot(SeleniumReport.java:108)
+	at com.iknowmed.framework.Report.handleStepInvolvingScreenshot(Report.java:373)
+	at com.iknowmed.framework.Report.updateTestLog(Report.java:238)
+	at supportlibraries.DriverScript.exceptionHandler(DriverScript.java:1072)
+	at supportlibraries.DriverScript.executeCRAFTTestIterations(DriverScript.java:899)
+	at supportlibraries.DriverScript.executeCraftOrCraftLite(DriverScript.java:171)
+	at supportlibraries.DriverScript.driveTestExecution(DriverScript.java:162)
+	at allocator.ParallelRunner.run(ParallelRunner.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'MSH-IKM-QA-018', ip: '10.124.98.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\endmecl\AppData\Local\Temp\scoped_dir6632_19149}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=61.0.3163.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 40aecfa5e4fee58f499e846811a03b1b
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:643)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:328)
+	at com.iknowmed.framework.selenium.SeleniumReport.takeScreenshot(SeleniumReport.java:104)
+	at com.iknowmed.framework.Report.handleStepInvolvingScreenshot(Report.java:373)
+	at com.iknowmed.framework.Report.updateTestLog(Report.java:238)
+	at supportlibraries.DriverScript.exceptionHandler(DriverScript.java:1072)
+	at supportlibraries.DriverScript.executeCRAFTTestIterations(DriverScript.java:899)
+	at supportlibraries.DriverScript.executeCraftOrCraftLite(DriverScript.java:171)
+	at supportlibraries.DriverScript.driveTestExecution(DriverScript.java:162)
+	at allocator.ParallelRunner.run(ParallelRunner.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-4" com.iknowmed.framework.FrameworkException: Error while capturing the screenshot
+	at com.iknowmed.framework.selenium.SeleniumReport.takeScreenshot(SeleniumReport.java:108)
+	at com.iknowmed.framework.Report.handleStepInvolvingScreenshot(Report.java:373)
+	at com.iknowmed.framework.Report.updateTestLog(Report.java:238)
+	at supportlibraries.DriverScript.exceptionHandler(DriverScript.java:1072)
+	at supportlibraries.DriverScript.executeCRAFTTestIterations(DriverScript.java:899)
+	at supportlibraries.DriverScript.executeCraftOrCraftLite(DriverScript.java:171)
+	at supportlibraries.DriverScript.driveTestExecution(DriverScript.java:162)
+	at allocator.ParallelRunner.run(ParallelRunner.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'MSH-IKM-QA-018', ip: '10.124.98.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\endmecl\AppData\Local\Temp\scoped_dir12172_26778}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=61.0.3163.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6ba41e419ed052f2a37a898881205250
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:643)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:328)
+	at com.iknowmed.framework.selenium.SeleniumReport.takeScreenshot(SeleniumReport.java:104)
+	at com.iknowmed.framework.Report.handleStepInvolvingScreenshot(Report.java:373)
+	at com.iknowmed.framework.Report.updateTestLog(Report.java:238)
+	at supportlibraries.DriverScript.exceptionHandler(DriverScript.java:1072)
+	at supportlibraries.DriverScript.executeCRAFTTestIterations(DriverScript.java:899)
+	at supportlibraries.DriverScript.executeCraftOrCraftLite(DriverScript.java:171)
+	at supportlibraries.DriverScript.driveTestExecution(DriverScript.java:162)
+	at allocator.ParallelRunner.run(ParallelRunner.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-2" com.iknowmed.framework.FrameworkException: Error while capturing the screenshot
+	at com.iknowmed.framework.selenium.SeleniumReport.takeScreenshot(SeleniumReport.java:108)
+	at com.iknowmed.framework.Report.handleStepInvolvingScreenshot(Report.java:373)
+	at com.iknowmed.framework.Report.updateTestLog(Report.java:238)
+	at supportlibraries.DriverScript.exceptionHandler(DriverScript.java:1072)
+	at supportlibraries.DriverScript.executeCRAFTTestIterations(DriverScript.java:899)
+	at supportlibraries.DriverScript.executeCraftOrCraftLite(DriverScript.java:171)
+	at supportlibraries.DriverScript.driveTestExecution(DriverScript.java:162)
+	at allocator.ParallelRunner.run(ParallelRunner.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)

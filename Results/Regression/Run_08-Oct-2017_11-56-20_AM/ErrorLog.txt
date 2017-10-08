@@ -1,0 +1,12 @@
+Started InternetExplorerDriver server (64-bit)
+3.5.0.0
+Listening on port 2477
+Only local connections are allowed
+Started InternetExplorerDriver server (64-bit)
+3.5.0.0
+Listening on port 32612
+Only local connections are allowed
+Oct 08, 2017 11:56:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 08, 2017 11:56:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
