@@ -17,39 +17,45 @@ public class ClinicalProfileComponent extends ReusableLibrary {
 		super(scriptHelper);		
 		}
 
-	/**
-	 * Constructor to initialize the component library
-	 * @param scriptHelper The {@link ScriptHelper} object passed from the {@link DriverScript}
-	 * @return 
-	 */	
 	
-	@SuppressWarnings("null")
-	public  ClinicalProfileHealthMaintenancePage addSmokingStatus() {		
-		CraftDriver driver = null;
-		WebDriverUtil wdUtil = new WebDriverUtil(driver);
+/**Name: addSmoking status
+ * Created By: Murali Janjanam
+ * Date: 10/05/2017
+ * For: To add the smoking status in Health Maintenance
+ * Updated By:	
+ * Update Description:	
+*/	
+	
+	public  ClinicalProfileHealthMaintenancePage addSmokingStatus() {
+		WebDriverUtil wdUtil = new WebDriverUtil(driver);	
 		wdUtil.waitFor(500);
+		PatientPage PatientPage=new PatientPage(scriptHelper);
+		PatientPage.clickOnTab("Clinical Profile");
 		
-		/*if(!driver.findElement(PatientPage.ClinicalProfileTab).getAttribute("id").contains("ClinicalProfile")) {
-			wdUtil.waitUntilElementVisible(PatientPage.PatientTab, 15);		
-			driver.findElement(PatientPage.PatientTab).click();
-		}*/
-		wdUtil.waitUntilElementVisible(pages.PatientPage.ClinicalProfileTab, 15);
-		driver.findElement(pages.PatientPage.ClinicalProfileTab).click();
-		wdUtil.waitUntilElementVisible(ClinicalProfilePage.HealthMaintenanceTAB, 15);
-		driver.findElement(ClinicalProfilePage.HealthMaintenanceTAB).click();
-		driver.findElement(ClinicalProfileHealthMaintenancePage.AddSmokingStatusBTN).click();
+		ClinicalProfilePage ClinicalProfilePage=new ClinicalProfilePage(scriptHelper);
+		ClinicalProfilePage.clickOnTab("Health Maintenance");
 		
-		wdUtil.waitUntilElementVisible(HealthMaintenanceAddSmokingStatusPage.CurrenteverydaysmokerRadioBTN, 15);
-		driver.findElement(HealthMaintenanceAddSmokingStatusPage.CurrenteverydaysmokerRadioBTN).click();
-		driver.findElement(HealthMaintenanceAddSmokingStatusPage.SaveBTN);
-		//report.updateTestLog("Add Smoking Status","Add Smoking Status", Status.PASS);
-		report.updateTestLog("Add Smoking Status", "Add Smoking Status", Status.PASS);
+		ClinicalProfileHealthMaintenancePage ClinicalProfileHealthMaintenancePage=new ClinicalProfileHealthMaintenancePage(scriptHelper);
+		ClinicalProfileHealthMaintenancePage.clickOnBTN("Add Smoking Status");	
+		
+		HealthMaintenanceAddSmokingStatusPage HealthMaintenanceAddSmokingStatusPage=new HealthMaintenanceAddSmokingStatusPage(scriptHelper);
+		HealthMaintenanceAddSmokingStatusPage.clickOnBTN("Current every day smoker");		
+		HealthMaintenanceAddSmokingStatusPage.clickOnBTN("Save");
+		ClinicalProfileHealthMaintenancePage.validateHealthMaintenance("Current");		
+		//report.updateTestLog("Add Smoking Status", "Add Smoking Status", Status.PASS);
 		return new ClinicalProfileHealthMaintenancePage(scriptHelper);		
 	}
-	
-	@SuppressWarnings("null")
+
+/**Name: addScreening
+ * Created By: Murali Janjanam
+ * Date: 10/05/2017
+ * For: To add the screening in Health Maintenance
+ * Updated By:	
+ * Update Description:	
+*/
+
 	public  ClinicalProfileHealthMaintenancePage addScreening() {		
-		CraftDriver driver = null;
+		//CraftDriver driver = null;
 		WebDriverUtil wdUtil = new WebDriverUtil(driver);	
 		wdUtil.waitFor(500);						
 		
@@ -58,7 +64,7 @@ public class ClinicalProfileComponent extends ReusableLibrary {
 			driver.findElement(PatientPage.PatientTab).click();
 		}*/
 		
-		wdUtil.waitUntilElementVisible(pages.PatientPage.ClinicalProfileTab, 15);
+		wdUtil.waitUntilElementVisible(PatientPage.ClinicalProfileTab, 15);
 		driver.findElement(pages.PatientPage.ClinicalProfileTab).click();
 		wdUtil.waitUntilElementVisible(ClinicalProfilePage.HealthMaintenanceTAB, 15);
 		driver.findElement(ClinicalProfilePage.HealthMaintenanceTAB).click();
