@@ -43,17 +43,19 @@ public class ClinicalProfileHealthMaintenancePage extends MasterPage {
 * TabName - Button Name of the Patient
 * Updated By:ica
 * Update Description:			
-*/			
+*/			WebDriverUtil wdUtil = new WebDriverUtil(driver);
 			public HealthMaintenanceAddSmokingStatusPage clickOnBTN(String BTNName){
 					
-					WebDriverUtil wdUtil = new WebDriverUtil(driver);
+					
 					if (BTNName.equals("Add Smoking Status")) {
-						wdUtil.waitUntilElementVisible(ClinicalProfileHealthMaintenancePage.AddSmokingStatusBTN, 15);
-						driver.findElement(ClinicalProfileHealthMaintenancePage.AddSmokingStatusBTN).click();
+						wdUtil.waitUntilElementVisible(AddSmokingStatusBTN, 15);
+						driver.findElement(AddSmokingStatusBTN).click();
 						}			
-					else 
-						throw new IllegalStateException("New Patient and Tab Expected, but not Displayed!");					
-							return new HealthMaintenanceAddSmokingStatusPage(scriptHelper);						
+					else {
+						throw new IllegalStateException("New Patient and Tab Expected, but not Displayed!");
+					}
+							return new HealthMaintenanceAddSmokingStatusPage(scriptHelper);	
+							
 			}	
 
 /**Name: clickOnBTN
@@ -65,12 +67,13 @@ public class ClinicalProfileHealthMaintenancePage extends MasterPage {
 * Update Description:			
 */			
 			public void validateHealthMaintenance(String HealthMaintenance){					
-					WebDriverUtil wdUtil = new WebDriverUtil(driver);
-					if (driver.findElement(ClinicalProfileHealthMaintenancePage.HealthMaintenanceEntry).getAttribute("id").contains(HealthMaintenance)) {
+					
+					if (driver.findElement(HealthMaintenanceEntry).getAttribute("id").contains(HealthMaintenance)) {
 						report.updateTestLog("Add Smoking Status", "Add Smoking Status", Status.PASS);;
 					}		
-					else 
-						report.updateTestLog("Add Smoking Status", "Add Smoking Status", Status.FAIL);					
+					else {
+						report.updateTestLog("Add Smoking Status", "Add Smoking Status", Status.FAIL);	
+					}
 					}	
 
 			

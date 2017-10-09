@@ -40,15 +40,15 @@ public class ClinicalProfilePage extends MasterPage{
 * Updated By:
 * Update Description:			
 */			
-			public ClinicalProfileHealthMaintenancePage clickOnTab(String TabName){
+			public void clickOnTab(String TabName){
 					
 					WebDriverUtil wdUtil = new WebDriverUtil(driver);
 					if (TabName.equals("Health Maintenance")) {
-						wdUtil.waitUntilElementVisible(ClinicalProfilePage.HealthMaintenanceTAB, 15);
-						driver.findElement(ClinicalProfilePage.HealthMaintenanceTAB).click();
+						wdUtil.waitUntilElementVisible(HealthMaintenanceTAB, 15);
+						driver.findElement(HealthMaintenanceTAB).click();
 						}			
-					else 
-						throw new IllegalStateException("'+ TabName +' Tab Expected, but not Displayed!");					
-							return new ClinicalProfileHealthMaintenancePage(scriptHelper);						
+					//else 
+						//throw new IllegalStateException("'+ TabName +' Tab Expected, but not Displayed!");					
+							//return new ClinicalProfileHealthMaintenancePage(scriptHelper);						
 			}
 }

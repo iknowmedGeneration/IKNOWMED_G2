@@ -50,12 +50,13 @@ public void clickOnTab(String TabName){
 		
 		WebDriverUtil wdUtil = new WebDriverUtil(driver);
 		if (TabName.equals("Clinical Profile")) {
-			wdUtil.waitUntilElementVisible(PatientPage.ClinicalProfileTab, 15);
-			driver.findElement(PatientPage.ClinicalProfileTab).click();
+			wdUtil.waitUntilElementVisible(ClinicalProfileTab, 15);
+			driver.findElement(ClinicalProfileTab).click();
 			}			
-		else 
+		else {
 			throw new IllegalStateException("'"+ TabName + "' Expected, but not Displayed!");					
-				//return new ClinicvoidalProfilePage(scriptHelper);						
+				//return new ClinicvoidalProfilePage(scriptHelper);		
+		}
 }
 
 

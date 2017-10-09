@@ -31,10 +31,10 @@ public class ClinicalProfileComponent extends ReusableLibrary {
 		wdUtil.waitFor(500);
 		PatientPage PatientPage=new PatientPage(scriptHelper);
 		PatientPage.clickOnTab("Clinical Profile");
-		
+		wdUtil.waitFor(500);
 		ClinicalProfilePage ClinicalProfilePage=new ClinicalProfilePage(scriptHelper);
 		ClinicalProfilePage.clickOnTab("Health Maintenance");
-		
+		wdUtil.waitFor(500);
 		ClinicalProfileHealthMaintenancePage ClinicalProfileHealthMaintenancePage=new ClinicalProfileHealthMaintenancePage(scriptHelper);
 		ClinicalProfileHealthMaintenancePage.clickOnBTN("Add Smoking Status");	
 		
