@@ -1,8 +1,0 @@
-SStartingt aCrhtriomeDnrgiver 2.32.498550 (9 dCehrocm5e8Der6i6vce3r1 b2c.c352.4985503 a(99cdee3c5c87e26266cf301cbcc153ca598c10e9306a) on port 6303
-Ocn7ly local connections are allowed.
-226f0c1c5810906a) on port 19650
-Only local connections are allowed.
-Oct 08, 2017 12:29:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-Oct 08, 2017 12:29:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS

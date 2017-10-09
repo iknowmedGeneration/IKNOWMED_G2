@@ -1,8 +1,0 @@
-Starting ChrStarting ChromeDomeDriveriver 2.32.498550 (9dec58e66c31bcc53ar 2.32.499ce3c78550 (9dec58e66c3226f0c1bcc53a9ce3c71c582210906a) on po6f0rt 4060
-Only clocal connections1c5810906a) on port 26408
-O nlya rlocal conenections are all alloweowed.
-d.
-Oct 04, 2017 9:44:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-Oct 04, 2017 9:44:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS

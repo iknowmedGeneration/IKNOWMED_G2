@@ -1,8 +1,0 @@
-Starting ChromeDriver 2.32.498550 (9deSc58e66tca3r1tbicncg5 3Ca9cher3ocm7e2Driver 26f0c12c5810906a) on .p3ort 16219
-O2n.l4y9 8l5o5c0a l( 9decc58e66c31bcc53a9ce3c7226f0c1c5810906a) on port 30960
-Only local connections are alolowednnections are.
- allowed.
-Oct 08, 2017 12:19:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-Oct 08, 2017 12:19:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
