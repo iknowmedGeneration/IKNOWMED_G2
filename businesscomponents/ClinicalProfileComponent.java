@@ -26,7 +26,7 @@ public class ClinicalProfileComponent extends ReusableLibrary {
  * Update Description:	
 */	
 	
-	public  ClinicalProfileHealthMaintenancePage addSmokingStatus() {
+	public  void addSmokingStatus() {
 		WebDriverUtil wdUtil = new WebDriverUtil(driver);	
 		wdUtil.waitFor(500);
 		PatientPage PatientPage=new PatientPage(scriptHelper);
@@ -43,7 +43,7 @@ public class ClinicalProfileComponent extends ReusableLibrary {
 		HealthMaintenanceAddSmokingStatusPage.clickOnBTN("Save");
 		ClinicalProfileHealthMaintenancePage.validateHealthMaintenance("Current");		
 		//report.updateTestLog("Add Smoking Status", "Add Smoking Status", Status.PASS);
-		return new ClinicalProfileHealthMaintenancePage(scriptHelper);		
+		//return new ClinicalProfileHealthMaintenancePage(scriptHelper);		
 	}
 
 /**Name: addScreening
@@ -54,7 +54,7 @@ public class ClinicalProfileComponent extends ReusableLibrary {
  * Update Description:	
 */
 
-	public  ClinicalProfileHealthMaintenancePage addScreening() {		
+	public  void addScreening() {		
 		//CraftDriver driver = null;
 		WebDriverUtil wdUtil = new WebDriverUtil(driver);	
 		wdUtil.waitFor(500);						
@@ -76,7 +76,7 @@ public class ClinicalProfileComponent extends ReusableLibrary {
 		driver.findElement(HealthMaintenanceAddScreeningPage.ScreeningBilateralRadioBTN).click();		
 		driver.findElement(HealthMaintenanceAddScreeningPage.SaveBTN);
 		report.updateTestLog("Add Screening", "Add Screening", Status.PASS);
-		return new ClinicalProfileHealthMaintenancePage(scriptHelper);		
+		//return new ClinicalProfileHealthMaintenancePage(scriptHelper);		
 	}
 }
 
