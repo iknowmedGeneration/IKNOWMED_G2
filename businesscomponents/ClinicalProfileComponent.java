@@ -26,25 +26,23 @@ public class ClinicalProfileComponent extends ReusableLibrary {
  * Update Description:	
 */	
 	
-	public  ClinicalProfileHealthMaintenancePage addSmokingStatus() {
-		WebDriverUtil wdUtil = new WebDriverUtil(driver);	
-		wdUtil.waitFor(500);
-		PatientPage PatientPage=new PatientPage(scriptHelper);
-		PatientPage.clickOnTab("Clinical Profile");
+ public  void addSmokingStatus() {	
+	 PatientPage PatientPage=new PatientPage(scriptHelper);	 
+	 PatientPage.clickOnTab("Clinical Profile");
+	 ClinicalProfilePage ClinicalProfilePage=new ClinicalProfilePage(scriptHelper);	 
+	 ClinicalProfilePage.clickOnTab("Health Maintenance");
+	 //String Smoking_Class = dataTable.getData("General_Data", "Smoking_Class");
+	 ClinicalProfileHealthMaintenancePage ClinicalProfileHealthMaintenancePage =new ClinicalProfileHealthMaintenancePage(scriptHelper);
+	 ClinicalProfileHealthMaintenancePage.clickOnBTN("Add Smoking Status");			
+	 HealthMaintenanceAddSmokingStatusPage HealthMaintenanceAddSmokingStatusPage=new HealthMaintenanceAddSmokingStatusPage(scriptHelper);
+	 HealthMaintenanceAddSmokingStatusPage.clickOnBTN("Current every day smoker");		
+	 HealthMaintenanceAddSmokingStatusPage.clickOnBTN("Save");
+	// ClinicalProfileHealthMaintenancePage.validateHealthMaintenance("Current");		
+			report.updateTestLog("Add Smoking Status", "Add Smoking Status", Status.PASS);
+			//return new ClinicalProfileHealthMaintenancePage(scriptHelper);		
+		}	
 		
-		ClinicalProfilePage ClinicalProfilePage=new ClinicalProfilePage(scriptHelper);
-		ClinicalProfilePage.clickOnTab("Health Maintenance");
 		
-		ClinicalProfileHealthMaintenancePage ClinicalProfileHealthMaintenancePage=new ClinicalProfileHealthMaintenancePage(scriptHelper);
-		ClinicalProfileHealthMaintenancePage.clickOnBTN("Add Smoking Status");	
-		
-		HealthMaintenanceAddSmokingStatusPage HealthMaintenanceAddSmokingStatusPage=new HealthMaintenanceAddSmokingStatusPage(scriptHelper);
-		HealthMaintenanceAddSmokingStatusPage.clickOnBTN("Current every day smoker");		
-		HealthMaintenanceAddSmokingStatusPage.clickOnBTN("Save");
-		ClinicalProfileHealthMaintenancePage.validateHealthMaintenance("Current");		
-		//report.updateTestLog("Add Smoking Status", "Add Smoking Status", Status.PASS);
-		return new ClinicalProfileHealthMaintenancePage(scriptHelper);		
-	}
 
 /**Name: addScreening
  * Created By: Murali Janjanam
@@ -54,29 +52,17 @@ public class ClinicalProfileComponent extends ReusableLibrary {
  * Update Description:	
 */
 
-	public  ClinicalProfileHealthMaintenancePage addScreening() {		
-		//CraftDriver driver = null;
-		WebDriverUtil wdUtil = new WebDriverUtil(driver);	
-		wdUtil.waitFor(500);						
-		
-		/*if(!driver.findElement(PatientPage.PatientBanerName).getAttribute("id").contains(PatientName)) {
-			wdUtil.waitUntilElementVisible(PatientPage.PatientTab, 15);		
-			driver.findElement(PatientPage.PatientTab).click();
-		}*/
-		
-		wdUtil.waitUntilElementVisible(PatientPage.ClinicalProfileTab, 15);
-		driver.findElement(pages.PatientPage.ClinicalProfileTab).click();
-		wdUtil.waitUntilElementVisible(ClinicalProfilePage.HealthMaintenanceTAB, 15);
-		driver.findElement(ClinicalProfilePage.HealthMaintenanceTAB).click();
-		driver.findElement(ClinicalProfileHealthMaintenancePage.AddScreeningBTN).click();
-		wdUtil.waitUntilElementVisible(HealthMaintenanceAddScreeningPage.MammogramCHECKBOX, 15);
-		driver.findElement(HealthMaintenanceAddScreeningPage.MammogramCHECKBOX).click();
-		driver.findElement(HealthMaintenanceAddScreeningPage.CalenderICON).click();
-		driver.findElement(HealthMaintenanceAddScreeningPage.CalenderTodayBTN).click();
-		driver.findElement(HealthMaintenanceAddScreeningPage.ScreeningBilateralRadioBTN).click();		
-		driver.findElement(HealthMaintenanceAddScreeningPage.SaveBTN);
-		report.updateTestLog("Add Screening", "Add Screening", Status.PASS);
-		return new ClinicalProfileHealthMaintenancePage(scriptHelper);		
+	public  void addScreening() {	
+									
+		 PatientPage PatientPage=new PatientPage(scriptHelper);	 
+		 PatientPage.clickOnTab("Clinical Profile");
+		 ClinicalProfilePage ClinicalProfilePage=new ClinicalProfilePage(scriptHelper);	 
+		 ClinicalProfilePage.clickOnTab("Health Maintenance");
+		 //String Screening_Class = dataTable.getData("General_Data", "Screening_Class");
+		 ClinicalProfileHealthMaintenancePage ClinicalProfileHealthMaintenancePage =new ClinicalProfileHealthMaintenancePage(scriptHelper);
+		 ClinicalProfileHealthMaintenancePage.clickOnBTN("Add Screening");
+		 HealthMaintenanceAddScreeningPage HealthMaintenanceAddScreeningPage= new HealthMaintenanceAddScreeningPage(scriptHelper);
+		 HealthMaintenanceAddScreeningPage.addScreening();
 	}
 }
 

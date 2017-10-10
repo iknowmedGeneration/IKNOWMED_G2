@@ -46,6 +46,16 @@ public class PatientPage extends MasterPage {
 * Updated By:ica
 * Update Description:			
 */			
+			
+			public void clickOnClinicalProfileTab(){
+				
+				WebDriverUtil wdUtil = new WebDriverUtil(driver);
+			
+					wdUtil.waitUntilElementVisible(ClinicalProfileTab, 15);
+					driver.findElement(ClinicalProfileTab).click();
+								
+						//return new ClinicvoidalProfilePage(scriptHelper);						
+		}
 public void clickOnTab(String TabName){
 		
 		WebDriverUtil wdUtil = new WebDriverUtil(driver);

@@ -9,7 +9,7 @@ public class ClinicalProfilePage extends MasterPage{
 //Constructor:
 	public ClinicalProfilePage(ScriptHelper scriptHelper) {
 		super(scriptHelper);		
-		if(!driver.findElement(ProblemsTAB).getAttribute("xpath").contains("Problems")) {
+		if(!driver.findElement(ProblemsTAB).getAttribute("id").contains("Problems")) {
 			throw new IllegalStateException("Problems page expected, but not displayed!");
 		}	
 	}
@@ -40,6 +40,7 @@ public class ClinicalProfilePage extends MasterPage{
 * Updated By:
 * Update Description:			
 */			
+					
 			public ClinicalProfileHealthMaintenancePage clickOnTab(String TabName){
 					
 					WebDriverUtil wdUtil = new WebDriverUtil(driver);

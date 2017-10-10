@@ -1,0 +1,4 @@
+Starting ChromeDriver 2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a) on port 3648
+Only local connections are allowed.
+Oct 09, 2017 2:51:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
