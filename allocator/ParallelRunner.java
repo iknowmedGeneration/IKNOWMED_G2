@@ -5,8 +5,6 @@ import supportlibraries.DriverScript;
 import com.iknowmed.framework.FrameworkParameters;
 import com.iknowmed.framework.selenium.*;
 
-//test test
-
 /**
  * Class to facilitate parallel execution of test scripts
  * @author Cognizant
