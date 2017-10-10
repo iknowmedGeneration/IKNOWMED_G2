@@ -15,10 +15,6 @@ import com.iknowmed.framework.IterationOptions;
 import com.iknowmed.framework.Settings;
 import com.iknowmed.framework.selenium.*;
 
-//add a comment for test purpose
-//Add Second cooment
-
-
 /**
  * Class to manage the batch execution of test scripts within the framework
  * 
