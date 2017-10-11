@@ -36,7 +36,7 @@ public class HealthMaintenanceAddScreeningPage extends MasterPage{
 			
 		//WebElement
 			public static final By ScreeningBilateralRadioBTN = By.xpath(".//*[@id='g2.addEditScreening.Screeningbilateral-label']");
-			public static final By MammogramCHECKBOX = By.xpath(".//*[@id='g2.addEditScreening.Mammogram-label']");
+			public static final By MammogramCHECKBOX = By.id("g2.addEditScreening.Mammogram-label");
 			public static final By CalenderICON = By.xpath(".//*[@id='g2.addEditScreening.MammogramDate']");
 			
 	//**PAGE OBJECTS END................................................................
@@ -48,14 +48,17 @@ public class HealthMaintenanceAddScreeningPage extends MasterPage{
 					wdUtil.waitUntilElementVisible(ScreeningBilateralRadioBTN, 15);
 					driver.findElement(ScreeningBilateralRadioBTN).click();
 					}
+				else
 				if (BTNName.equals("Mammogram")) {
 					wdUtil.waitUntilElementVisible(MammogramCHECKBOX, 15);
 					driver.findElement(MammogramCHECKBOX).click();
 					}
+				else
 				if (BTNName.equals("CalenderIcon")) {
 					wdUtil.waitUntilElementVisible(CalenderICON, 15);
 					driver.findElement(CalenderICON).click();
 					}
+				else
 				if (BTNName.equals("CalenderToday")) {
 					wdUtil.waitUntilElementVisible(CalenderTodayBTN, 15);
 					driver.findElement(CalenderTodayBTN).click();
@@ -65,12 +68,15 @@ public class HealthMaintenanceAddScreeningPage extends MasterPage{
 					wdUtil.waitUntilElementVisible(SaveBTN, 15);
 					driver.findElement(SaveBTN).click();
 					}
+				else
 				if (BTNName.equals("Cancel")) {
 					wdUtil.waitUntilElementVisible(CancelBTN, 15);
 					driver.findElement(CancelBTN).click();
 					}
 				else
-					throw new IllegalStateException("'+ BTNName +' Expected, but not Displayed!");	
+				{
+					throw new IllegalStateException("'"+ BTNName +"' Expected, but not Displayed!");
+				}
 				//BTNName=null;
 												
 		}	
