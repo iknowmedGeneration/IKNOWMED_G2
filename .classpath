@@ -24,11 +24,11 @@
 	<classpathentry kind="lib" path="C:/MATS/Selenium/Required_Jars/poi-ooxml-3.16.jar"/>
 	<classpathentry kind="lib" path="C:/MATS/Selenium/Required_Jars/poi-ooxml-schemas-3.16.jar"/>
 	<classpathentry kind="lib" path="C:/MATS/Selenium/Required_Jars/poi-scratchpad-3.16.jar"/>
-	<classpathentry kind="lib" path="C:/MATS/Selenium/Required_Jars/selenium-server-standalone-3.6.0.jar"/>
 	<classpathentry kind="lib" path="C:/MATS/Selenium/Required_Jars/selenium-support-2.44.0.jar"/>
 	<classpathentry kind="lib" path="C:/MATS/Selenium/Required_Jars/testng-6.11.jar"/>
 	<classpathentry kind="lib" path="C:/MATS/Selenium/Required_Jars/xmlbeans-2.5.0.jar"/>
 	<classpathentry kind="lib" path="C:/MATS/Selenium/Required_Jars/xmlrpc-client-3.1.2.jar"/>
 	<classpathentry kind="lib" path="C:/MATS/Selenium/Required_Jars/xmlrpc-common-3.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/MATS/Selenium/Required_Jars/selenium-server-standalone-3.5.3.jar"/>
 	<classpathentry kind="output" path=""/>
 </classpath>

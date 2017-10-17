@@ -40,6 +40,7 @@ public class Allocator {
 		allocator.driveBatchExecution();
 	}
 
+	
 	private void driveBatchExecution() {
 		resultSummaryManager.setRelativePath();
 		properties = Settings.getInstance();
