@@ -3,6 +3,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 import com.iknowmed.framework.Status;
+import com.iknowmed.framework.selenium.CraftDriver;
 import com.iknowmed.framework.selenium.WebDriverUtil;
 
 import supportlibraries.ScriptHelper;
@@ -30,7 +31,7 @@ public class ClinicalProfileHealthMaintenancePage extends MasterPage {
 		//WebLists
 			
 		//Links
-			public static final By HealthMaintenanceEntry = By.xpath(".//div[contains(@id,'Currenteverydaysmoker')]");
+			//public static final By HealthMaintenanceEntry = By.xpath(".//div[contains(@id,'Currenteverydaysmoker')]");
 			
 		//WebElement
 			
@@ -44,19 +45,24 @@ public class ClinicalProfileHealthMaintenancePage extends MasterPage {
 * Updated By:ica
 * Update Description:			
 */			WebDriverUtil wdUtil = new WebDriverUtil(driver);
-			public HealthMaintenanceAddSmokingStatusPage clickOnBTN(String BTNName){
+			public void clickOnBTN(String BTNName){
 					
 					
 					if (BTNName.equals("Add Smoking Status")) {
-						wdUtil.waitUntilElementVisible(AddSmokingStatusBTN, 15);
-						driver.findElement(AddSmokingStatusBTN).click();
+
+						wdUtil.waitUntilElementVisible(ClinicalProfileHealthMaintenancePage.AddSmokingStatusBTN, 15);
+						driver.findElement(ClinicalProfileHealthMaintenancePage.AddSmokingStatusBTN).click();
+						}
+					else if (BTNName.equals("Add Screening")) {
+						wdUtil.waitUntilElementVisible(ClinicalProfileHealthMaintenancePage.AddScreeningBTN, 15);
+						driver.findElement(ClinicalProfileHealthMaintenancePage.AddScreeningBTN).click();
+						}
+					else 
+						throw new IllegalStateException(""+ BTNName +" Button/Tab Expected, but not Displayed!");					
+						
 						}			
-					else {
-						throw new IllegalStateException("New Patient and Tab Expected, but not Displayed!");
-					}
-							return new HealthMaintenanceAddSmokingStatusPage(scriptHelper);	
-							
-			}	
+		
+			
 
 /**Name: clickOnBTN
 * Created By: Murali Janjanam
@@ -66,15 +72,47 @@ public class ClinicalProfileHealthMaintenancePage extends MasterPage {
 * Updated By:ica
 * Update Description:			
 */			
-			public void validateHealthMaintenance(String HealthMaintenance){					
+
+			/*public void validateHealthMaintenance(String HealthMaintenance){					
+					//WebDriverUtil wdUtil = new WebDriverUtil(driver);
+				System.out.println(driver.findElement(ClinicalProfileHealthMaintenancePage.HealthMaintenanceEntry).getAttribute("id"));
+					if (driver.findElement(ClinicalProfileHealthMaintenancePage.HealthMaintenanceEntry).getAttribute("id").contains(HealthMaintenance)) {
+		public void validateHealthMaintenance(String HealthMaintenance){					
 					
 					if (driver.findElement(HealthMaintenanceEntry).getAttribute("id").contains(HealthMaintenance)) {
+
 						report.updateTestLog("Add Smoking Status", "Add Smoking Status", Status.PASS);;
 					}		
+
+					else 
+						report.updateTestLog("Add Smoking Status", "Add Smoking Status", Status.FAIL);					
+					}	*/
+/*
 					else {
 						report.updateTestLog("Add Smoking Status", "Add Smoking Status", Status.FAIL);	
 					}
-					}	
+					}	*/
 
+
+				
+			
+			public static  void addScreening() {
+				CraftDriver driver = null ;
+			WebDriverUtil wdUtil = new WebDriverUtil(driver);	
+			wdUtil.waitFor(500);
+			wdUtil.waitUntilElementVisible(PatientPage.ClinicalProfileTab, 15);
+			driver.findElement(pages.PatientPage.ClinicalProfileTab).click();
+			wdUtil.waitUntilElementVisible(ClinicalProfilePage.HealthMaintenanceTAB, 15);
+			driver.findElement(ClinicalProfilePage.HealthMaintenanceTAB).click();
+			driver.findElement(ClinicalProfileHealthMaintenancePage.AddScreeningBTN).click();
+			wdUtil.waitUntilElementVisible(HealthMaintenanceAddScreeningPage.MammogramCHECKBOX, 15);
+			driver.findElement(HealthMaintenanceAddScreeningPage.MammogramCHECKBOX).click();
+			driver.findElement(HealthMaintenanceAddScreeningPage.CalenderICON).click();
+			driver.findElement(HealthMaintenanceAddScreeningPage.CalenderTodayBTN).click();
+			driver.findElement(HealthMaintenanceAddScreeningPage.ScreeningBilateralRadioBTN).click();		
+			driver.findElement(HealthMaintenanceAddScreeningPage.SaveBTN);
+			//report.updateTestLog("Add Screening", "Add Screening", Status.PASS);
+			}
+			
 			
 }
