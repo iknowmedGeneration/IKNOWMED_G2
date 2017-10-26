@@ -43,20 +43,20 @@ public class HealthMaintenanceAddSmokingStatusPage extends MasterPage{
 * Update Description:			
 */			
 			public void clickOnBTN(String BTNName){
-					
-					WebDriverUtil wdUtil = new WebDriverUtil(driver);
-					if (BTNName.equals("Current every day smoker")) {
-						wdUtil.waitUntilElementVisible(CurrenteverydaysmokerRadioBTN, 15);
-						driver.findElement(CurrenteverydaysmokerRadioBTN).click();
-						}			
-					else
-					if (BTNName.equals("Save")) {
-						wdUtil.waitUntilElementVisible(CurrenteverydaysmokerRadioBTN, 15);
-						driver.findElement(CurrenteverydaysmokerRadioBTN).click();
-						}
-					else {
-						throw new IllegalStateException("'+ BTNName +' Expected, but not Displayed!");					
-							//return new HealthMaintenanceAddSmokingStatusPage(scriptHelper);	
+				
+				WebDriverUtil wdUtil = new WebDriverUtil(driver);
+				if (BTNName.equals("Current every day smoker")) {
+					wdUtil.waitUntilElementVisible(CurrenteverydaysmokerRadioBTN, 15);
+					driver.findElement(CurrenteverydaysmokerRadioBTN).click();
+					}			
+				else
+				if (BTNName.equals("Save")) {
+					wdUtil.waitUntilElementVisible(SaveBTN, 15);
+					driver.findElement(SaveBTN).click();
 					}
-			}		
+				else {
+					throw new IllegalStateException("'+ BTNName +' Expected, but not Displayed!");					
+						//return new HealthMaintenanceAddSmokingStatusPage(scriptHelper);	
+				}
+		}		
 }
