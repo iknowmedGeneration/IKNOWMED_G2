@@ -24,8 +24,9 @@ public class ClinicalProfileComponent extends ReusableLibrary {
  * For: To add the smoking status in Health Maintenance
  * Updated By:	
  * Update Description:	
+ * @throws InterruptedException 
 */	
- public  void addSmokingStatus() {	
+ public  void addSmokingStatus() throws InterruptedException {	
 	 PatientPage PatientPage=new PatientPage(scriptHelper);	 
 	 PatientPage.clickOnTab("Clinical Profile");
 	 ClinicalProfilePage ClinicalProfilePage=new ClinicalProfilePage(scriptHelper);	 
@@ -34,6 +35,7 @@ public class ClinicalProfileComponent extends ReusableLibrary {
 	 ClinicalProfileHealthMaintenancePage ClinicalProfileHealthMaintenancePage =new ClinicalProfileHealthMaintenancePage(scriptHelper);
 	 ClinicalProfileHealthMaintenancePage.clickOnBTN("Add Smoking Status");			
 	 HealthMaintenanceAddSmokingStatusPage HealthMaintenanceAddSmokingStatusPage=new HealthMaintenanceAddSmokingStatusPage(scriptHelper);
+	 Thread.sleep(2000);
 	 HealthMaintenanceAddSmokingStatusPage.clickOnBTN("Current every day smoker");		
 	 HealthMaintenanceAddSmokingStatusPage.clickOnBTN("Save");
 	// ClinicalProfileHealthMaintenancePage.validateHealthMaintenance("Current");		
